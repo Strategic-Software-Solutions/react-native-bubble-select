@@ -1,5 +1,11 @@
 # React Native Bubble Select
 
+This is a minimally modified version of the react-native-bubble-select package by [Jesse Onolememen](https://github.com/jesster2k10).
+
+This repository is not actively maintained nor are issues monitored.
+
+---
+
 An easy-to-use customizable bubble animation picker, similar to the Apple Music genre selection
 
 ![Screenshot](./screenshot.png)
