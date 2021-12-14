@@ -33,11 +33,11 @@ Advanced Example
 Install the library using either yarn or npm like so:
 
 ```sh
-yarn add react-native-bubble-select
+yarn add @strategic-software-solutions/react-native-bubble-select
 ```
 
 ```sh
-npm install --save react-native-bubble-select
+npm install --save @strategic-software-solutions/react-native-bubble-select
 ```
 
 ### iOS Installation
@@ -50,7 +50,7 @@ cd ios && pod install
 
 For versions below 0.60.0, use rnpm links
 
-- Run `react-native link react-native-bubble-select`
+- Run `react-native link @strategic-software-solutions/react-native-bubble-select`
 - If linking fails, follow the
   [manual linking steps](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#manual-linking)
 
@@ -83,7 +83,9 @@ You can view the [example project](./example/src/App.tsx) for more usage.
 
 ```js
 import React from 'react';
-import BubbleSelect, { Bubble } from 'react-native-bubble-select';
+import BubbleSelect, {
+  Bubble,
+} from '@strategic-software-solutions/react-native-bubble-select';
 import { Dimensions } from 'react-native';
 
 const { width, height } = Dimensions.get('window');
@@ -110,7 +112,10 @@ const App = () => {
 ```tsx
 import React from 'react';
 import { Platform, Dimensions } from 'react-native';
-import BubbleSelect, { Bubble, BubbleNode } from 'react-native-bubble-select';
+import BubbleSelect, {
+  Bubble,
+  BubbleNode,
+} from '@strategic-software-solutions/react-native-bubble-select';
 import randomCities from './randomCities';
 
 const { width, height } = Dimensions.get('window');
